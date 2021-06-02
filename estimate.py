@@ -5,7 +5,7 @@ def wallis(n):
         right = (2. * i)/(2. * i + 1.)
         pi = pi * left * right
     return pi
-print(wallis(10))
+
 
 
 
