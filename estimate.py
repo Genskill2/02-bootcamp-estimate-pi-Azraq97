@@ -19,8 +19,6 @@ def monte_carlo(n):
 
 
     for i in range(INTERVAL ** 2):
-
-
         rand_x = random.uniform(-1, 1)
         rand_y = random.uniform(-1, 1)
 
@@ -34,7 +32,7 @@ def monte_carlo(n):
 
 
         pi = 4 * circle_points / square_points
-     return pi
+    return pi
 print(monte_carlo())
 
 
