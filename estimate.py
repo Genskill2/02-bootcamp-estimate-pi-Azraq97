@@ -10,8 +10,9 @@ def wallis(n):
 
 
 
-import random
+
 def monte_carlo(n):
+  import randon
   i=1
   inspoint=0
   while i<=n:
