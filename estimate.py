@@ -15,10 +15,10 @@ def monte_carlo(n):
 
   circle_point=1
   square_point=0
-  while circle_point<=square_point:
+  while circle_point<=n:
      x=random.random()
      y=random.random()
-     distance=mat.sqrt((x**2)+(y**2))
+     distance=math.sqrt((x**2)+(y**2))
      if distance<1:
          square_point +=1
      circle_point+=1
