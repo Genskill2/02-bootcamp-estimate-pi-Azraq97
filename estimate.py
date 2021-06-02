@@ -10,9 +10,9 @@ def wallis(n):
 
 
 
-import random 
-def monte_carlo(n):
 
+def monte_carlo(n):
+  import random
   circle_point=1
   square_point=0
   while circle_point<=n:
