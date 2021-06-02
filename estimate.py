@@ -12,7 +12,7 @@ def wallis(n):
 
 
 def monte_carlo(n):
-  import randon
+  import random
   i=1
   inspoint=0
   while i<=n:
