@@ -10,20 +10,19 @@ def wallis(n):
 
 
 
-
+import random
 def monte_carlo(n):
-  import random
-  circle_point=1
-  square_point=0
-  while circle_point<=n:
-     x=random.random()
-     y=random.random()
-     distance=math.sqrt((x**2)+(y**2))
-     if distance<1:
-         square_point +=1
-     circle_point+=1
-  pi=4*(square_point/n)
-  return pi
+  i=1
+  inspoint=0
+  while i<=n:
+      x=random.random()
+      y=random.random()
+      distance=math.sqrt((x**2)+(y**2))
+      if distance<1:
+          inspoint+=1
+      i+=1
+      val=4*(inspoint/n)
+      return val
 
 
 
