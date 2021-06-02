@@ -5,7 +5,7 @@ def wallis(n):
         right = (2. * i)/(2. * i + 1.)
         pi = pi * left * right
     return pi
-print(wallis(n))
+print(wallis(1))
 
 
 
@@ -33,7 +33,7 @@ def monte_carlo(n):
 
         pi = 4 * circle_points / square_points
     return pi
-print(monte_carlo(n))
+print(monte_carlo(1))
 
 
 
